@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Graphic Design</title>
+<style>
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: black;
+  }
+
+  .pointer {
+		cursor: pointer;
+	}
+
+
+/*test code*/
+
+html,body {
+    padding:0;
+    margin:0;
+    background-color: white;
+}
+
+#wrapper {
+    position: absolute;
+    height:200px;
+    width:200px;
+}
+
+.panels {
+    position: relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+    z-index:10;
+
+}
+
+#a{
+   background: white;
+    position: fixed;
+    top: 0;
+    z-index: auto;
+		background-image: url("../src/images/graphic-design/G-1-08.png");
+		padding-bottom: -150px;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+#b{
+   margin-top:100%;
+   background: white;
+   color: white;
+
+}
+
+.hero-image {
+  z-index: auto;
+
+}
+
+/*end test code*/
+
+
+.header {
+	position: relative;
+	display: block;
+	font-size: 0;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	margin-top: 15px;
+	font-size: 20px;
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+.home {
+	text-decoration: none;
+	color: black;
+	font-weight: lighter;
+	display: inline-block;
+	margin-right: 850px;
+}
+
+.about {
+	text-decoration: none;
+	color: black;
+	padding-right: 40px;
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+.about:hover {
+	color: #3ACCE1;
+}
+
+.experience {
+	text-decoration: none;
+	color: black;
+	font-weight: lighter;
+	font-size: 16px;
+
+}
+
+.experience:hover {
+	color: #3ACCE1;
+}
+
+/*wrapper-one grid layout*/
+
+.container {
+	height: auto;
+	padding-top: 20px;
+  vertical-align: baseline;
+	background-color: white;
+
+}
+
+/*section 1*/
+* {box-sizing: border-box;}
+.wrapper-one {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 110px;
+
+}
+
+.wrapper-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(203px, auto);
+  vertical-align: baseline;
+
+}
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  vertical-align: baseline;
+
+}
+
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  vertical-align: baseline;
+
+}
+
+
+/*section2*/
+.section-2 {
+	max-width: 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	white-space: 0;
+	margin: 0;
+	height: auto;
+	font-size: 0;
+	background-color: white;
+ }
+
+
+
+/*text*/
+.title {
+  color: black;
+  font-weight: bold;
+  font-family: "font-family: 'Patua One'", " cursive;", Georgia, Times New Roman, serif;
+}
+
+.text1 {
+	color: black;
+	margin-top: 30px;
+}
+
+.paragraph-text {
+  font-size: 18px;
+	font-weight: normal;
+	line-height: 1.4;
+  color: black;
+}
+
+
+/*footer*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #3ACCE1;
+}
+
+
+</style>
+<div id="wrapper">
+<body>
+	<header class="header">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<div class="hero-image">
+
+		</div>
+		<div id="a" class="panels">
+
+		<nav class="navbar">
+				<a href="Portfolio.html" class="home">Shawn MV Jones</a>
+				<a href="About.html" class="about">About</a>
+				<a href="Experience.html" class="experience">Experience</a>
+		</nav>
+	</header>
+		</div>
+
+	<div id="b" class="panels">
+	   <div class="container">
+       <div class="wrapper-one">
+
+         <div class="one">
+           <div class="text1">
+             <p><strong>Company</strong><br>IBM, University, VHB</br></p>
+             <p style="line-height: 15px;">&nbsp;</p>
+             <p><strong>Year</strong><br>2017 - 2018</br></p>
+             <p style="line-height: 15px;">&nbsp;</p>
+						 <p><strong>Roles</strong><br>Graphic Designer<br></p>
+             <p style="line-height: 15px;">&nbsp;</p>
+             <p><strong>Type</strong><br>Graphic Design<br>Information Design</br></p>
+           </div>
+           </div>
+
+           <div class="two">
+             <div class="text2">
+               <p class="title" style="font-size: 30px; line-height:30px;">Graphic Design</p>
+               <p style="line-height: 1px;">&nbsp;</p>
+               <p class="paragraph-text">Believe it or not, I started off as a graphic designer and thought I wanted to go in that direction while attending my first couple years at Northeastern University. After learning about web and mobile design and more importantly user experience, my career path immediately moved to that direction. I still practice graphic design and still create graphics on a weekly basis. This section will display some of my graphic design and information design print work. I have worked on logo design, graphics, information graphics, typography, and whitepaper designs. Here are just some examples of both projects in school and professional work.</p>
+             </div>
+           </div>
+
+       </div>
+
+       <div class="section-2">
+				 <img src="../src/images/graphic-design/G-2.png" class="sections1" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/graphic-design/G-22.png" class="sections1" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/graphic-design/G-7.png" class="sections1" height="100%" width="100%" margin="0px">
+			 </div>
+
+
+        </div>
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      </div>
+
+    </div>
+
+
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
+
+</html>
