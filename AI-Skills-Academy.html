@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AI Skills Academy</title>
+<style>
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: black;
+  }
+
+  .pointer {
+		cursor: pointer;
+	}
+
+
+/*test code*/
+
+html,body {
+    padding:0;
+    margin:0;
+    background:black;
+}
+
+#wrapper {
+    position: absolute;
+    height:200px;
+    width:200px;
+}
+
+.panels {
+    position: relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+    z-index:10;
+
+}
+
+#a{
+   background: black;
+    position: fixed;
+    top: 0;
+    z-index: auto;
+		background-image: url("../src/images/image-6-AI.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+#b{
+   margin-top:100%;
+   background: black;
+   color: white;
+
+}
+
+.hero-image {
+  z-index: auto;
+
+}
+
+/*end test code*/
+
+
+.header {
+	position: relative;
+	display: block;
+	font-size: 0;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	margin-top: 15px;
+	font-size: 20px;
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+.home {
+	text-decoration: none;
+	color: black;
+	font-weight: lighter;
+	display: inline-block;
+	margin-right: 850px;
+}
+
+.about {
+	text-decoration: none;
+	color: black;
+	padding-right: 40px;
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+.about:hover {
+	color: grey;
+}
+
+.experience {
+	text-decoration: none;
+	color: black;
+	font-weight: lighter;
+	font-size: 16px;
+
+}
+
+.experience:hover {
+	color: grey;
+}
+
+/*wrapper-one grid layout*/
+
+.container {
+	height: auto;
+	padding-top: 20px;
+  vertical-align: baseline;
+
+}
+
+/*section 1*/
+* {box-sizing: border-box;}
+.wrapper-one {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 110px;
+
+}
+
+.wrapper-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(203px, auto);
+  vertical-align: baseline;
+
+}
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  vertical-align: baseline;
+
+}
+
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  vertical-align: baseline;
+
+}
+
+
+/*section2*/
+.section-2 {
+	max-width: 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	white-space: 0;
+	margin: 0;
+	height: auto;
+	font-size: 0;
+ }
+
+
+
+/*text*/
+.title {
+  color: #999797;
+  font-weight: bold;
+  font-family: "font-family: 'Patua One'", " cursive;", Georgia, Times New Roman, serif;
+}
+
+.text1 {
+	color: #999797;
+	margin-top: 30px;
+}
+
+.paragraph-text {
+  font-size: 18px;
+	font-weight: normal;
+	line-height: 1.4;
+  color: #999797;
+}
+
+
+/*footer*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #3ACCE1;
+}
+
+
+</style>
+<div id="wrapper">
+<body>
+	<header class="header">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<div class="hero-image">
+
+		</div>
+		<div id="a" class="panels">
+
+		<nav class="navbar">
+				<a href="Portfolio.html" class="home">Shawn MV Jones</a>
+				<a href="About.html" class="about">About</a>
+				<a href="Experience.html" class="experience">Experience</a>
+		</nav>
+	</header>
+		</div>
+
+	<div id="b" class="panels">
+	   <div class="container">
+       <div class="wrapper-one">
+
+         <div class="one">
+           <div class="text1">
+             <p><strong>Company</strong><br>IBM</br></p>
+             <p style="line-height: 15px;">&nbsp;</p>
+             <p><strong>Year</strong><br>2018</br></p>
+             <p style="line-height: 15px;">&nbsp;</p>
+             <p><strong>Roles</strong><br>Lead UX Designer</br>Graphic Designer<br>Video Editor</br></p>
+             <p style="line-height: 15px;">&nbsp;</p>
+             <p><strong>Type</strong><br>UX, UI, Design Thinking</p>
+           </div>
+           </div>
+
+           <div class="two">
+             <div class="text2">
+               <p class="title" style="font-size: 30px; line-height:30px;">Artificial Intelligence Skills Academy</p>
+               <p style="line-height: 1px;">&nbsp;</p>
+               <p class="paragraph-text">Artificial Intelligence (AI) is changing every profession in every company. Professionals will need to learn to use, apply, and create AI solutions. IBM established the AI Skills Academy to provide AI education for IBMers. The IBM AI Skills Academy offers content for three roles: technical, industry, and general IBM. The AI Skills Academy mission is to advance AI skills for IBMers and our clients to drive the acceleration and implementation of AI into every area of business. IBM AI Skills Academy provides an end-to-end learning journey which maps and syndicates current AI thinking and teaching in two unique ways: the curriculum is categorized as either “creating AI” or “applying AI.” These two identifiers are ways in which skills are synthesized in real world settings – working with IBM clients.</p>
+             </div>
+           </div>
+
+       </div>
+
+       <div class="section-2">
+				 <img src="../src/images/section2.png" class="sections1" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/section3.png" class="sections2" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/section4.png" class="sections" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/section5.png" class="sections" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/section6.png" class="sections" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/section7.png" class="sections" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/section8.png" class="sections" height="100%" width="100%" margin="0px">
+			 </div>
+
+
+        </div>
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      </div>
+
+    </div>
+
+
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
+
+</html>
