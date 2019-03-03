@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Apprenticeship Academy</title>
+<style>
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: black;
+  }
+
+  .pointer {
+		cursor: pointer;
+	}
+
+
+/*test code*/
+
+html,body {
+    padding:0;
+    margin:0;
+    background-color: white;
+}
+
+#wrapper {
+    position: absolute;
+    height:200px;
+    width:200px;
+}
+
+.panels {
+    position: relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+    z-index:10;
+
+}
+
+#a{
+   background: white;
+    position: fixed;
+    top: 0;
+    z-index: auto;
+		background-image: url("../src/images/Apprenticeship-Academy/AA-2.png");
+		padding-bottom: -150px;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+#b{
+   margin-top:100%;
+   background: white;
+   color: white;
+
+}
+
+.hero-image {
+  z-index: auto;
+
+}
+
+/*end test code*/
+
+
+.header {
+	position: relative;
+	display: block;
+	font-size: 0;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	margin-top: 15px;
+	font-size: 20px;
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+.home {
+	text-decoration: none;
+	color: black;
+	font-weight: lighter;
+	display: inline-block;
+	margin-right: 850px;
+}
+
+.about {
+	text-decoration: none;
+	color: black;
+	padding-right: 40px;
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+.about:hover {
+	color: #3ACCE1;
+}
+
+.experience {
+	text-decoration: none;
+	color: black;
+	font-weight: lighter;
+	font-size: 16px;
+
+}
+
+.experience:hover {
+	color: #3ACCE1;
+}
+
+/*wrapper-one grid layout*/
+
+.container {
+	height: auto;
+	padding-top: 20px;
+  vertical-align: baseline;
+	background-color: white;
+
+}
+
+/*section 1*/
+* {box-sizing: border-box;}
+.wrapper-one {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 110px;
+
+}
+
+.wrapper-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(203px, auto);
+  vertical-align: baseline;
+
+}
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  vertical-align: baseline;
+
+}
+
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  vertical-align: baseline;
+
+}
+
+
+/*section2*/
+.section-2 {
+	max-width: 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	white-space: 0;
+	margin: 0;
+	height: auto;
+	font-size: 0;
+	background-color: white;
+ }
+
+
+
+/*text*/
+.title {
+  color: black;
+  font-weight: bold;
+  font-family: "font-family: 'Patua One'", " cursive;", Georgia, Times New Roman, serif;
+}
+
+.text1 {
+	color: black;
+	margin-top: 30px;
+}
+
+.paragraph-text {
+  font-size: 18px;
+	font-weight: normal;
+	line-height: 1.4;
+  color: black;
+}
+
+
+/*footer*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #3ACCE1;
+}
+
+
+</style>
+<div id="wrapper">
+<body>
+	<header class="header">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<div class="hero-image">
+
+		</div>
+		<div id="a" class="panels">
+
+		<nav class="navbar">
+				<a href="Portfolio.html" class="home">Shawn MV Jones</a>
+				<a href="About.html" class="about">About</a>
+				<a href="Experience.html" class="experience">Experience</a>
+		</nav>
+	</header>
+		</div>
+
+	<div id="b" class="panels">
+	   <div class="container">
+       <div class="wrapper-one">
+
+         <div class="one">
+           <div class="text1">
+             <p><strong>Company</strong><br>IBM</br></p>
+             <p style="line-height: 15px;">&nbsp;</p>
+             <p><strong>Year</strong><br>2018</br></p>
+             <p style="line-height: 15px;">&nbsp;</p>
+						 <p><strong>Roles</strong><br>Lead UX/UI Designer<br>UX Researcher</br>Graphic Designer</p>
+             <p style="line-height: 15px;">&nbsp;</p>
+             <p><strong>Type</strong><br>UX, UI, Design Thinking</p>
+           </div>
+           </div>
+
+           <div class="two">
+             <div class="text2">
+               <p class="title" style="font-size: 30px; line-height:30px;">Apprenticeship Academy</p>
+               <p style="line-height: 1px;">&nbsp;</p>
+               <p class="paragraph-text">The Apprenticeship Academy is an immersive training program that helps build competitive skills for New Collar talent who might not have advanced degrees. This paid training program provides competency-based, skills development delivered through on-the-job learning and training experiences. Various technical and non-technical roles are available such as software engineer, cyber security, data scientist, mainframe system administrator, network administrator, project manager, offering manager, designer, and more.</p> <p class="paragraph-text">IBM’s CEO, Ginni Rometty’s goal is to “work together to scale up this approach of vocational training, creating a national corps of skilled workers trained to take the 'new collar' IT jobs that are in demand here in America. "Our push is to upskill and build anyone with any knowledge set and train them for possible technological career paths. Apprentices follow an experiential learning model where they explore and practice new skills through various tools and activities before applying them in real-world projects. We wanted to give a theme for this program, so we decided to push an exploration/space theme to help guide apprentices through the program.</p>
+             </div>
+           </div>
+
+       </div>
+
+       <div class="section-2">
+				 <img src="../src/images/Apprenticeship-Academy/AA-1.png" class="sections1" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/Apprenticeship-Academy/AA-3.png" class="sections2" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/Apprenticeship-Academy/AA-9.png" class="sections" height="100%" width="100%" margin="0px">
+				 <img src="../src/images/Apprenticeship-Academy/AA-7.png" class="sections" height="100%" width="100%" margin="0px">
+			 </div>
+
+
+        </div>
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      </div>
+
+    </div>
+
+
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
+
+</html>
