@@ -65,29 +65,29 @@ html,body {
 .header {
 	position: relative;
 	display: block;
-	font-size: 0;
 }
-
-.navbar {
-	position: absolute;
-	top: 0;
-	margin-top: 15px;
-	font-size: 20px;
-	float: left;
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 20px;
+	
+.navigation {
+	height: 76px;
+	padding-top: 25px;
 	display: inline-block;
-	text-align: center;
+	width: 100%;
 }
-
 .home {
 	text-decoration: none;
 	color: black;
 	font-weight: lighter;
 	display: inline-block;
-	margin-right: 850px;
+	float: left;
+	padding-left: 100px;
 }
+.navbar {
+	font-size: 16px;
+	display: inline-block;
+	float: right;
+	padding-right: 100px;
+}
+
 
 .about {
 	text-decoration: none;
@@ -217,22 +217,26 @@ html,body {
 <div id="wrapper">
 <body>
 	<header class="header">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-		<div class="hero-image">
 
-		</div>
 		<div id="a" class="panels">
 
-		<nav class="navbar">
-				<a href="index.html" class="home">Shawn MV Jones</a>
+			<div class="navigation">
+
+			<a href="index.html" class="home">Shawn MV Jones</a>
+
+		<div class="navbar">
 				<a href="index.html" class="about">Home</a>
 				<a href="DesignThinking.html" class="about">Design Thinking</a>
 				<a href="About.html" class="about">About</a>
 				<a href="Experience.html" class="experience">Experience</a>
-		</nav>
-	</header>
 		</div>
+			</div>
+
+		<div class="hero-image">
+		</div>
+
+	</header>
+		<!--test code--></div>
 
 	<div id="b" class="panels">
 	   <div class="container">
