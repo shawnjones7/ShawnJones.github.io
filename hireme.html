@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<html><head>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -8,127 +10,100 @@
 <meta name="theme-color" content="#ffffff">
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HireMe</title>
+	<title>HireMe</title></head>
 <style>
-
 body {
   font-family: "Open Sans", Arial, sans-serif;
   background-color: black;
   }
-
   .pointer {
 		cursor: pointer;
 	}
-
-
 /*test code*/
-
 html,body {
     padding:0;
     margin:0;
     background:black;
 }
-
 #wrapper {
     position: absolute;
     height:200px;
     width:200px;
 }
-
 .panels {
     position: relative;
     height:100%;
     min-height:100%;
     width:100%;
     z-index:10;
-
 }
-
 #a{
    background: black;
     position: fixed;
     top: 0;
     z-index: auto;
-		background-image: url("../src/images/hireme-11.png");
-		background-repeat: no-repeat;
-		background-size: cover;
+    background-image: url("src/images/eatwell-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 #b{
    margin-top:100%;
    background: black;
    color: white;
-
 }
-
 .hero-image {
   z-index: auto;
-
 }
-
 /*end test code*/
-
-
 .header {
 	position: relative;
 	display: block;
-	font-size: 0;
 }
-
-.navbar {
-	position: absolute;
-	top: 0;
-	margin-top: 15px;
-	font-size: 20px;
-	float: left;
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 20px;
+.navigation {
+	height: 76px;
+	padding-top: 25px;
 	display: inline-block;
-	text-align: center;
+	width: 100%;
 }
-
 .home {
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-weight: lighter;
 	display: inline-block;
-	margin-right: 850px;
+	float: left;
+	padding-left: 100px;
 }
-
+.navbar {
+	font-size: 16px;
+	display: inline-block;
+	float: right;
+	padding-right: 100px;
+}
 .about {
 	text-decoration: none;
-	color: black;
+	color: white;
 	padding-right: 40px;
 	font-weight: lighter;
 	font-size: 16px;
 }
-
 .about:hover {
-	color: grey;
+	color: #3ACCE1;
 }
-
 .experience {
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-weight: lighter;
 	font-size: 16px;
-
 }
-
 .experience:hover {
-	color: grey;
+	color: #3ACCE1;
 }
-
 /*wrapper-one grid layout*/
-
 .container {
 	height: auto;
 	padding-top: 20px;
   vertical-align: baseline;
-
 }
-
 /*section 1*/
 * {box-sizing: border-box;}
 .wrapper-one {
@@ -136,33 +111,24 @@ html,body {
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 110px;
-
 }
-
 .wrapper-one {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   grid-auto-rows: minmax(203px, auto);
   vertical-align: baseline;
-
 }
-
 .one {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
   vertical-align: baseline;
-
 }
-
 .two {
   grid-column: 2 / 4;
   grid-row: 1 / 3;
   vertical-align: baseline;
-
 }
-
-
 /*section2*/
 .section-2 {
 	max-width: 100%;
@@ -173,29 +139,22 @@ html,body {
 	height: auto;
 	font-size: 0;
  }
-
-
-
 /*text*/
 .title {
   color: #999797;
   font-weight: bold;
   font-family: "font-family: 'Patua One'", " cursive;", Georgia, Times New Roman, serif;
 }
-
 .text1 {
 	color: #999797;
 	margin-top: 30px;
 }
-
 .paragraph-text {
   font-size: 18px;
 	font-weight: normal;
 	line-height: 1.4;
   color: #999797;
 }
-
-
 /*footer*/
 #myBtn {
   display: none;
@@ -212,32 +171,33 @@ html,body {
   padding: 15px;
   border-radius: 4px;
 }
-
 #myBtn:hover {
   background-color: #3ACCE1;
 }
-
-
 </style>
 <div id="wrapper">
 <body>
 	<header class="header">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-		<div class="hero-image">
 
-		</div>
 		<div id="a" class="panels">
+
+			<div class="navigation">
 
 			<a href="index.html" class="home">Shawn MV Jones</a>
 
-		<nav class="navbar">
+		<div class="navbar">
 				<a href="index.html" class="about">Home</a>
 				<a href="DesignThinking.html" class="about">Design Thinking</a>
 				<a href="About.html" class="about">About</a>
 				<a href="Experience.html" class="experience">Experience</a>
-		</nav>
+		</div>
+			</div>
+
+		<div class="hero-image">
+		</div>
+
 	</header>
+
 		</div>
 
 	<div id="b" class="panels">
@@ -258,25 +218,18 @@ html,body {
 
            <div class="two">
              <div class="text2">
-               <p class="title" style="font-size: 30px; line-height:30px;">HireMe</p>
+               <p class="title" style="font-size: 30px; line-height:30px; color: #FF7900;">HireMe</p>
                <p style="line-height: 1px;">&nbsp;</p>
-               <p class="<strong>Job seekers</strong> looking for new opportunities at startups and other small companies. 
-               Job searching is impersonal and there is never one place that you can store all your skills, experience, education, and other resume components to apply to jobs. 
-               Job seekers currently have to go from site to site to apply and re-input all their information every time. It is extremely tedious for the job seeker. 
-               The hiring process doesn't typically leave much room for teams and candidates to evaluate how they will actually work together.
-               Teams sometimes hire the wrong people and job seekers sometimes take jobs for which they aren't a good fit. Time is an essential factor that is ultimately the issue when the job seeker is looking to get to know the company and team.</p>
-            <p><strong>Hiring Teams</strong>Startups and job hiring process is unorganized. The hiring process doesn't typically leave much room for teams and candidates to evaluate how they will actually work together. 
-            Job searching is administratively complex for hiring teams. A lot of job descriptions are poorly written and are not true to what they are actually looking for in terms of a job seeker to hire. 
-            Hiring teams are poorly organized and prepared for interviews. It's hard to find the best personality traits for current position and company culture as a whole.</p>
-            
-            </div>
+               <p class="paragraph-text">Coming Soon...</p>
+             </div>
            </div>
 
        </div>
 
        <div class="section-2">
-				 <img src="../src/images/hireme-sections/section2.png" class="sections1" height="100%" width="100%" margin="0px">
-				 <img src="../src/images/hireme-sections/section3.png" class="sections1" height="100%" width="100%" margin="0px">
+
+	       
+	       
 			 </div>
 
 
@@ -290,7 +243,6 @@ html,body {
     <script>
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
-
     function scrollFunction() {
       if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
         document.getElementById("myBtn").style.display = "block";
@@ -298,7 +250,6 @@ html,body {
         document.getElementById("myBtn").style.display = "none";
       }
     }
-
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
       document.body.scrollTop = 0;
