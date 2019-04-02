@@ -1,17 +1,6 @@
 <!DOCTYPE html>
-<html><head>
-	
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Shawn MV Jones</title></head>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shawn MV Jones</title>
 <style>
 
 body {
@@ -51,10 +40,11 @@ html,body {
     position: fixed;
     top:0;
     z-index:-99;
-		background-image: url("src/images/hero-image-1.png");
+		background-image: url("../src/images/hero-image-1.png");
 		background-repeat: no-repeat;
 		background-size: cover;
 }
+
 
 #b{
    margin-top:100%;
@@ -65,16 +55,14 @@ html,body {
 
 
 .header {
-	position: relative;
 	display: block;
 }
 
-	
 .navigation {
-	height: 76px;
-	padding-top: 25px;
-	display: inline-block;
-	width: 100%;
+height: 76px;
+padding-top: 25px;
+display: inline-block;
+width: 100%;
 }
 
 .home {
@@ -93,13 +81,13 @@ html,body {
 	float: right;
 	padding-right: 100px;
 
-}	
+}
 
 
 .about {
 	text-decoration: none;
 	color: white;
-	padding-right: 40px;
+	padding-right: 30px;
 	font-weight: lighter;
 	font-size: 16px;
 }
@@ -138,7 +126,7 @@ html,body {
 /*wrapper-one grid layout*/
 
 .container {
-	height: 1550px;
+	height: 2100px;
 	padding-top: 20px;
 }
 
@@ -467,6 +455,112 @@ html,body {
 	transition: .5s ease;
 }
 
+/*text on images*/
+
+.font-size {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.text1, .text2, .text4, .text5, .text6 {
+	margin-top: 50%;
+	color: white;
+	opacity: 10;
+}
+
+.text3 {
+	margin-top: 22%;
+}
+
+.text7 {
+	margin-top: 115%;
+}
+
+/*text on images after hover*/
+
+.link-to-item {
+	color: white;
+	visibility: visible;
+	opacity: .0;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 70px;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+
+.one:hover .link-to-item {
+	visibility: visible;
+	color: white;
+	opacity: 10;
+	text-align: center;
+	margin-bottom: 70px;
+	transition: .5s ease;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+
+.two:hover .link-to-item {
+	visibility: visible;
+	color: white;
+	opacity: 10;
+	text-align: center;
+	margin-bottom: 70px;
+	transition: .5s ease;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+.three:hover .link-to-item {
+	visibility: visible;
+	color: white;
+	opacity: 10;
+	text-align: center;
+	margin-bottom: 70px;
+	transition: .5s ease;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+.four:hover .link-to-item {
+	visibility: visible;
+	color: white;
+	opacity: 10;
+	text-align: center;
+	margin-bottom: 70px;
+	transition: .5s ease;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+.five:hover .link-to-item {
+	visibility: visible;
+	color: white;
+	opacity: 10;
+	text-align: center;
+	margin-bottom: 70px;
+	transition: .5s ease;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+.six:hover .link-to-item {
+	visibility: visible;
+	color: white;
+	opacity: 10;
+	text-align: center;
+	margin-bottom: 70px;
+	transition: .5s ease;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+.seven:hover .link-to-item {
+	visibility: visible;
+	color: white;
+	opacity: 10;
+	text-align: center;
+	margin-bottom: 70px;
+	transition: .5s ease;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+
 
 /*.wrapper-one:hover .text1 {
   opacity: 100%;
@@ -510,18 +604,19 @@ html,body {
 
 
 </style>
-<!--test code--><div id="wrapper">
 <body>
-<header class="header">
+	<div id="wrapper">
+
+	<header class="header">
 
 		<div id="a" class="panels">
 
-			<div class=navigation>
+			<div class="navigation">
 
-			<a href="index.html" class="home">Shawn MV Jones</a>
+			<a href="Portfolio.html" class="home">Shawn MV Jones</a>
 
 		<div class="navbar">
-				<a href="index.html" class="about">Home</a>
+				<a href="Portfolio.html" class="about">Home</a>
 				<a href="DesignThinking.html" class="about">Design Thinking</a>
 				<a href="About.html" class="about">About</a>
 				<a href="Experience.html" class="experience">Experience</a>
@@ -532,9 +627,10 @@ html,body {
 		</div>
 
 	</header>
-		<!--test code--></div>
 
-	<!--test code--><div id="b" class="panels">
+		</div>
+
+	<div id="b" class="panels">
 	<div class="container">
 		<div class="wrapper-one">
 			  <div class="one">
@@ -581,14 +677,14 @@ html,body {
 				</div>
 
 				<div class="eight">
-					<div class="text8">
-						<a href="hireme.html" class="link-to-item"><strong class="font-size">HireMe</strong><br class="smaller-text">UX, UI, Website Design</br></a>
+					<div class="text7">
+						<a href="hireme.html" class="link-to-item"><strong class="font-size">HireMe</strong><br class="smaller-text">UX, UI, Web Application</br></a>
 					</div>
 				</div>
 
 				<div class="nine">
-					<div class="text9">
-						<a href="eatwell.html" class="link-to-item"><strong class="font-size">EatWell</strong><br class="smaller-text">UX, UI, Web Application</br></a>
+					<div class="text7">
+						<a href="eatwell.html" class="link-to-item"><strong class="font-size">EatWell</strong><br class="smaller-text">UX, UI, Website Design</br></a>
 					</div>
 				</div>
 
