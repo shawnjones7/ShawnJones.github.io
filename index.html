@@ -1,36 +1,32 @@
 <!DOCTYPE html>
-<html><head>
-	
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Shawn MV Jones</title></head>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shawn MV Jones</title>
 <style>
+
 body {
 	font-family: "Open Sans", Arial, sans-serif;
 	background-color: black;
 	}
+
 	.pointer {
 		cursor: pointer;
 	}
+
 /*test code*/
+
+
 html,body {
     padding:0;
     margin:0;
     background:black;
 }
+
 #wrapper {
     position: absolute;
 		height:200px;
     width:200px;
 }
+
 .panels {
     position: relative;
     height:100%;
@@ -38,31 +34,37 @@ html,body {
     width:100%;
     z-index:1000;
 }
+
 #a{
    background: black;
     position: fixed;
     top:0;
     z-index:-99;
-		background-image: url("src/images/hero-image-1.png");
+		background-image: url("../src/images/hero-image-1.png");
 		background-repeat: no-repeat;
 		background-size: cover;
 }
+
+
 #b{
    margin-top:100%;
    background:black;
 }
+
 /*end test code*/
+
+
 .header {
-	position: relative;
 	display: block;
 }
-	
+
 .navigation {
-	height: 76px;
-	padding-top: 25px;
-	display: inline-block;
-	width: 100%;
+height: 76px;
+padding-top: 25px;
+display: inline-block;
+width: 100%;
 }
+
 .home {
 	text-decoration: none;
 	color: white;
@@ -71,36 +73,46 @@ html,body {
 	float: left;
 	padding-left: 100px;
 }
+
 .navbar {
 	font-size: 16px;
 	display: inline-block;
 	background-color: black;
 	float: right;
 	padding-right: 100px;
-}	
+
+}
+
+
 .about {
 	text-decoration: none;
 	color: white;
-	padding-right: 40px;
+	padding-right: 30px;
 	font-weight: lighter;
 	font-size: 16px;
 }
+
 .about:hover {
 	color: #3ACCE1;
 	transition: .3s ease;
 	cursor: pointer;
 }
+
 .experience {
 	text-decoration: none;
 	color: white;
 	font-weight: lighter;
 	font-size: 16px;
+
 }
+
 .experience:hover {
 	color: #3ACCE1;
 	transition: .3s ease;
 	cursor: pointer;
+
 }
+
 /*.text-on-image {
 	position: absolute;
 	display: block;
@@ -109,17 +121,22 @@ html,body {
 	color: white;
 	font-size: 65px;
 }*/
+
+
 /*wrapper-one grid layout*/
+
 .container {
-	height: 1550px;
+	height: 2100px;
 	padding-top: 20px;
 }
+
 * {box-sizing: border-box;}
 .wrapper-one {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 100px;
 }
+
 .wrapper-one > div {
   border: 0px solid rgb(255,255,255);
   border-radius: 0px;
@@ -128,73 +145,121 @@ html,body {
   padding: 1em;
   color: #d9480f;
 }
+
 .wrapper-one {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   grid-auto-rows: minmax(203px, auto);
 }
+
 .one {
-  grid-column: 1 / 2;
-  grid-row: 1 / 3;
-	background-image: url("src/images/image1.png");
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-image: url("../src/images/image1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+
 }
 .two {
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
-	background-image: url("src/images/image-2.png");
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-image: url("../src/images/image-2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*data Visualization*/
 .three {
-  grid-column: 1 / 3;
-  grid-row: 3 / 5;
-	background-image: url("src/images/image-4.png");
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 5;
+	background-image: url("../src/images/image-4.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*graphic design*/
 .four {
-  grid-column: 1 / 1;
-  grid-row: 5 / 7;
-	background-image: url("src/images/image-5.png");
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-image: url("../src/images/image-5.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*AI*/
 .five {
-  grid-column: 2 / 2;
-  grid-row: 5 / 7;
-	background-image: url("src/images/image-6.png");
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-image: url("../src/images/image-6.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*boozl*/
 .six {
-  grid-column: 3 / 3;
-  grid-row: 5 / 7;
-	background-image: url("src/images/image-7.png");
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-image: url("../src/images/image-7.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*Tabless*/
 .seven {
-  grid-column: 3 / 3;
-  grid-row: 1 / 5;
-	background-image: url("src/images/image-3.png");
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	background-image: url("../src/images/image-3.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*eatwell*/
+.eight {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	background-image: url("../src/images/hireme/hireme-11.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*hireme*/
+.nine {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	background-image: url("../src/images/Eatwell/eatwell-09.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /*portfolio boxes*/
+
 .wrapper-one {
   position: relative;
   width: 100%;
 }
+
 /*portfolio boxes hovering*/
+
 .one {
   display: block;
   width: 100%;
   height: auto;
 	text-align: center;
 }
+
 .one:hover {
 	position: absolute;
   top: 0;
@@ -205,11 +270,12 @@ html,body {
   width: 100%;
   background-color: black;
   opacity: 10;
-	background-image: url("src/images/image-1-hover.png");
+	background-image: url("../src/images/image-1-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
 }
+
 .two {
   display: block;
   width: 100%;
@@ -217,6 +283,7 @@ html,body {
 	text-align: center;
 	color: white;
 }
+
 .two:hover {
   position: absolute;
   top: 0;
@@ -228,17 +295,19 @@ html,body {
   background-color: black;
 	color: white;
 	opacity: 10;
-	background-image: url("src/images/image-2-hover.png");
+	background-image: url("../src/images/image-2-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
 }
+
 .three {
   display: block;
   width: 100%;
   height: auto;
 	text-align: center;
 }
+
 .three:hover {
   position: absolute;
   top: 0;
@@ -249,7 +318,7 @@ html,body {
   width: 100%;
   background-color: black;
 	opacity: 10;
-	background-image: url("src/images/image-4-hover.png");
+	background-image: url("../src/images/image-4-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -260,6 +329,7 @@ html,body {
   height: auto;
 	text-align: center;
 }
+
 .four:hover {
   position: absolute;
   top: 0;
@@ -270,7 +340,7 @@ html,body {
   width: 100%;
   opacity: 10;
   background-color: black;
-	background-image: url("src/images/image-5-hover.png");
+	background-image: url("../src/images/image-5-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -281,6 +351,7 @@ html,body {
   height: auto;
 	text-align: center;
 }
+
 .five:hover {
   position: absolute;
   top: 0;
@@ -291,7 +362,7 @@ html,body {
   width: 100%;
   background-color: black;
 	opacity: 10;
-	background-image: url("src/images/image-6-hover.png");
+	background-image: url("../src/images/image-6-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -302,6 +373,7 @@ html,body {
   height: auto;
 	text-align: center;
 }
+
 .six:hover {
   position: absolute;
   top: 0;
@@ -312,7 +384,7 @@ html,body {
   width: 100%;
   opacity: 10;
   background-color: black;
-	background-image: url("src/images/image-7-hover.png");
+	background-image: url("../src/images/image-7-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -323,6 +395,7 @@ html,body {
   height: auto;
 	text-align: center;
 }
+
 .seven:hover {
   position: absolute;
   top: 0;
@@ -332,28 +405,79 @@ html,body {
   height: 100%;
   width: 100%;
   opacity: 10;
-	background-image: url("src/images/image-33-hover.png");
+	background-image: url("../src/images/image-33-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
 }
+
+.eight {
+  display: block;
+  width: 100%;
+  height: auto;
+	text-align: center;
+}
+
+.eight:hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10;
+	background-image: url("../src/images/hireme/hireme-12.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .5s ease;
+}
+
+.nine {
+  display: block;
+  width: 100%;
+  height: auto;
+	text-align: center;
+}
+
+.nine:hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10;
+	background-image: url("../src/images/eatwell/eatwell-10.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .5s ease;
+}
+
 /*text on images*/
+
 .font-size {
 	font-size: 18px;
 	font-weight: bold;
 }
+
 .text1, .text2, .text4, .text5, .text6 {
 	margin-top: 50%;
 	color: white;
 	opacity: 10;
 }
+
 .text3 {
 	margin-top: 22%;
 }
+
 .text7 {
 	margin-top: 115%;
 }
+
 /*text on images after hover*/
+
 .link-to-item {
 	color: white;
 	visibility: visible;
@@ -364,6 +488,7 @@ html,body {
 	line-height: 1.3;
 	font-weight: lighter;
 }
+
 .one:hover .link-to-item {
 	visibility: visible;
 	color: white;
@@ -374,6 +499,7 @@ html,body {
 	line-height: 1.3;
 	font-weight: lighter;
 }
+
 .two:hover .link-to-item {
 	visibility: visible;
 	color: white;
@@ -434,14 +560,19 @@ html,body {
 	line-height: 1.3;
 	font-weight: lighter;
 }
+
+
 /*.wrapper-one:hover .text1 {
   opacity: 100%;
 }
+
 .text1 {
 	opacity: 0;
 	color: white;
 	text-align: center;
 }*/
+
+
 /*footer*/
 .footer {
 	text-align: center;
@@ -449,6 +580,7 @@ html,body {
 	color: #b3b3b3;
 	margin-top: 50px;
 }
+
 /*footer*/
 #myBtn {
   display: none;
@@ -465,22 +597,26 @@ html,body {
   padding: 15px;
   border-radius: 4px;
 }
+
 #myBtn:hover {
   background-color: #3ACCE1;
 }
+
+
 </style>
-<!--test code--><div id="wrapper">
 <body>
-<header class="header">
+	<div id="wrapper">
+
+	<header class="header">
 
 		<div id="a" class="panels">
 
-			<div class=navigation>
+			<div class="navigation">
 
-			<a href="index.html" class="home">Shawn MV Jones</a>
+			<a href="Portfolio.html" class="home">Shawn MV Jones</a>
 
 		<div class="navbar">
-				<a href="index.html" class="about">Home</a>
+				<a href="Portfolio.html" class="about">Home</a>
 				<a href="DesignThinking.html" class="about">Design Thinking</a>
 				<a href="About.html" class="about">About</a>
 				<a href="Experience.html" class="experience">Experience</a>
@@ -491,9 +627,10 @@ html,body {
 		</div>
 
 	</header>
-		<!--test code--></div>
 
-	<!--test code--><div id="b" class="panels">
+		</div>
+
+	<div id="b" class="panels">
 	<div class="container">
 		<div class="wrapper-one">
 			  <div class="one">
@@ -539,6 +676,18 @@ html,body {
 					</div>
 				</div>
 
+				<div class="eight">
+					<div class="text7">
+						<a href="Tabless.html" class="link-to-item"><strong class="font-size">Tabless App</strong><br class="smaller-text">UX, UI, Mobile</br></a>
+					</div>
+				</div>
+
+				<div class="nine">
+					<div class="text7">
+						<a href="Tabless.html" class="link-to-item"><strong class="font-size">Tabless App</strong><br class="smaller-text">UX, UI, Mobile</br></a>
+					</div>
+				</div>
+
 			</div>
 			<p class="footer">Copywright 2019. Shawn MV Jones.</p>
 			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -548,6 +697,7 @@ html,body {
 			<script>
 	    // When the user scrolls down 20px from the top of the document, show the button
 	    window.onscroll = function() {scrollFunction()};
+
 	    function scrollFunction() {
 	      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
 	        document.getElementById("myBtn").style.display = "block";
@@ -555,6 +705,7 @@ html,body {
 	        document.getElementById("myBtn").style.display = "none";
 	      }
 	    }
+
 	    // When the user clicks on the button, scroll to the top of the document
 	    function topFunction() {
 	      document.body.scrollTop = 0;
