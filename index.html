@@ -166,52 +166,92 @@ html,body {
 }
 
 .one {
-  grid-column: 1 / 2;
-  grid-row: 1 / 3;
-	background-image: url("src/images/image1.png");
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-image: url("../src/images/image1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 
 }
 .two {
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
-	background-image: url("src/images/image-2.png");
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-image: url("../src/images/image-2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*data Visualization*/
 .three {
-  grid-column: 1 / 3;
-  grid-row: 3 / 5;
-	background-image: url("src/images/image-4.png");
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 5;
+	background-image: url("../src/images/image-4.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*graphic design*/
 .four {
-  grid-column: 1 / 1;
-  grid-row: 5 / 7;
-	background-image: url("src/images/image-5.png");
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-image: url("../src/images/image-5.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*AI*/
 .five {
-  grid-column: 2 / 2;
-  grid-row: 5 / 7;
-	background-image: url("src/images/image-6.png");
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-image: url("../src/images/image-6.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*boozl*/
 .six {
-  grid-column: 3 / 3;
-  grid-row: 5 / 7;
-	background-image: url("src/images/image-7.png");
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-image: url("../src/images/image-7.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/*Tabless*/
 .seven {
-  grid-column: 3 / 3;
-  grid-row: 1 / 5;
-	background-image: url("src/images/image-3.png");
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	background-image: url("../src/images/image-3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*eatwell*/
+.eight {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	background-image: url("../src/images/hireme/hireme-11.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*hireme*/
+.nine {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	background-image: url("../src/images/Eatwell/eatwell-09.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -242,7 +282,7 @@ html,body {
   width: 100%;
   background-color: black;
   opacity: 10;
-	background-image: url("src/images/image-1-hover.png");
+	background-image: url("../src/images/image-1-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -267,7 +307,7 @@ html,body {
   background-color: black;
 	color: white;
 	opacity: 10;
-	background-image: url("src/images/image-2-hover.png");
+	background-image: url("../src/images/image-2-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -290,7 +330,7 @@ html,body {
   width: 100%;
   background-color: black;
 	opacity: 10;
-	background-image: url("src/images/image-4-hover.png");
+	background-image: url("../src/images/image-4-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -312,7 +352,7 @@ html,body {
   width: 100%;
   opacity: 10;
   background-color: black;
-	background-image: url("src/images/image-5-hover.png");
+	background-image: url("../src/images/image-5-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -334,7 +374,7 @@ html,body {
   width: 100%;
   background-color: black;
 	opacity: 10;
-	background-image: url("src/images/image-6-hover.png");
+	background-image: url("../src/images/image-6-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -356,7 +396,7 @@ html,body {
   width: 100%;
   opacity: 10;
   background-color: black;
-	background-image: url("src/images/image-7-hover.png");
+	background-image: url("../src/images/image-7-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -377,116 +417,54 @@ html,body {
   height: 100%;
   width: 100%;
   opacity: 10;
-	background-image: url("src/images/image-33-hover.png");
+	background-image: url("../src/images/image-33-hover.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
 }
 
-/*text on images*/
-
-.font-size {
-	font-size: 18px;
-	font-weight: bold;
-}
-
-.text1, .text2, .text4, .text5, .text6 {
-	margin-top: 50%;
-	color: white;
-	opacity: 10;
-}
-
-.text3 {
-	margin-top: 22%;
-}
-
-.text7 {
-	margin-top: 115%;
-}
-
-/*text on images after hover*/
-
-.link-to-item {
-	color: white;
-	visibility: visible;
-	opacity: .0;
-	text-decoration: none;
+.eight {
+  display: block;
+  width: 100%;
+  height: auto;
 	text-align: center;
-	margin-bottom: 70px;
-	line-height: 1.3;
-	font-weight: lighter;
 }
 
-.one:hover .link-to-item {
-	visibility: visible;
-	color: white;
-	opacity: 10;
-	text-align: center;
-	margin-bottom: 70px;
+.eight:hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10;
+	background-image: url("../src/images/hireme/hireme-12.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	transition: .5s ease;
-	line-height: 1.3;
-	font-weight: lighter;
 }
 
-.two:hover .link-to-item {
-	visibility: visible;
-	color: white;
-	opacity: 10;
+.nine {
+  display: block;
+  width: 100%;
+  height: auto;
 	text-align: center;
-	margin-bottom: 70px;
-	transition: .5s ease;
-	line-height: 1.3;
-	font-weight: lighter;
 }
-.three:hover .link-to-item {
-	visibility: visible;
-	color: white;
-	opacity: 10;
-	text-align: center;
-	margin-bottom: 70px;
+
+.nine:hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10;
+	background-image: url("../src/images/eatwell/eatwell-10.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	transition: .5s ease;
-	line-height: 1.3;
-	font-weight: lighter;
-}
-.four:hover .link-to-item {
-	visibility: visible;
-	color: white;
-	opacity: 10;
-	text-align: center;
-	margin-bottom: 70px;
-	transition: .5s ease;
-	line-height: 1.3;
-	font-weight: lighter;
-}
-.five:hover .link-to-item {
-	visibility: visible;
-	color: white;
-	opacity: 10;
-	text-align: center;
-	margin-bottom: 70px;
-	transition: .5s ease;
-	line-height: 1.3;
-	font-weight: lighter;
-}
-.six:hover .link-to-item {
-	visibility: visible;
-	color: white;
-	opacity: 10;
-	text-align: center;
-	margin-bottom: 70px;
-	transition: .5s ease;
-	line-height: 1.3;
-	font-weight: lighter;
-}
-.seven:hover .link-to-item {
-	visibility: visible;
-	color: white;
-	opacity: 10;
-	text-align: center;
-	margin-bottom: 70px;
-	transition: .5s ease;
-	line-height: 1.3;
-	font-weight: lighter;
 }
 
 
@@ -599,6 +577,18 @@ html,body {
 				<div class="seven">
 					<div class="text7">
 						<a href="Tabless.html" class="link-to-item"><strong class="font-size">Tabless App</strong><br class="smaller-text">UX, UI, Mobile</br></a>
+					</div>
+				</div>
+
+				<div class="eight">
+					<div class="text8">
+						<a href="hireme.html" class="link-to-item"><strong class="font-size">HireMe</strong><br class="smaller-text">UX, UI, Website Design</br></a>
+					</div>
+				</div>
+
+				<div class="nine">
+					<div class="text9">
+						<a href="eatwell.html" class="link-to-item"><strong class="font-size">EatWell</strong><br class="smaller-text">UX, UI, Web Application</br></a>
 					</div>
 				</div>
 
