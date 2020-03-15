@@ -222,17 +222,26 @@ width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-/*EatWell*/
+/*hireme*/
 .eight {
 	grid-column-start: 1;
 	grid-column-end: 2;
+	grid-row-start: 7;
+	grid-row-end: 9;
+	background-image: url("../src/images/home-images/H-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*eatwell*/
+.nine {
+	grid-column-start: 2;
+	grid-column-end: 3;
 	grid-row-start: 7;
 	grid-row-end: 9;
 	background-image: url("../src/images/home-images/E-1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 
 /*portfolio boxes*/
 
@@ -417,7 +426,29 @@ width: 100%;
   height: 100%;
   width: 100%;
   opacity: 10;
-	background-image: url("../src/images/home-images/E-2.png");
+	background-image: url("../src/images/home-images/H-2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .5s ease;
+}
+
+.nine {
+  display: block;
+  width: 100%;
+  height: auto;
+	text-align: center;
+}
+
+.nine:hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10;
+	background-image: url("../src/images/home-images/E-2.png"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: .5s ease;
@@ -531,6 +562,17 @@ width: 100%;
 }
 	
 .eight:hover .link-to-item {
+	visibility: visible;
+	color: white;
+	opacity: 10;
+	text-align: center;
+	margin-bottom: 70px;
+	transition: .5s ease;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+	
+.nine:hover .link-to-item {
 	visibility: visible;
 	color: white;
 	opacity: 10;
@@ -657,10 +699,15 @@ width: 100%;
 
 				<div class="eight">
 					<div class="text8">
-						<a href="eatwell.html" class="link-to-item"><strong class="font-size">EatWell</strong><br class="smaller-text">UX, UI, Web Design</br></a>
+						<a href="hireme.html" class="link-to-item"><strong class="font-size">HireMe</strong><br class="smaller-text">UX, UI, Web Application</br></a>
 					</div>
 				</div>
 
+				<div class="nine">
+					<div class="text8">
+						<a href="eatwell.html" class="link-to-item"><strong class="font-size">EatWell</strong><br class="smaller-text">UX, UI, Website Design</br></a>
+					</div>
+				</div>
 
 			</div>
 			<p class="footer">Copywright 2019. Shawn MV Jones.</p>
